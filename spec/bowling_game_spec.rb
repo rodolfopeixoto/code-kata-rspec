@@ -15,7 +15,6 @@ describe BowlingGame do
     end
     
     it 'scores a game with spare' do
-
       game.pins([4,6,5] + [0] * 17)
       expect(game.score).to eq(20)
     end
